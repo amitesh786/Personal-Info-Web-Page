@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Welcome to Amitesh WebPage</title>
+<link rel="stylesheet" href="css/personal.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type='text/javascript' src='js/personal.js' charset='UTF-8'></script>
+</head>
+
+<body>
+
+<div class="form">
+    <h1>Personal Info</h1>
+    <div id="inputData" class="inputData">
+        <p><strong>LastName:</strong>
+            <input id="lastName" type="text" name="lastName" maxlength="10"/>
+        <strong>FirstName:</strong>
+            <input id="firstName" type="text" name="firstName" maxlength="10"/>
+        <strong>Address:</strong>
+            <input id="address" type="text" name="address" maxlength="20"/>
+        </p>
+    </div>
+
+    <div id="buttonSpace" class="buttonSpace">
+        <button id="eachWordLength" class="eachWordLength" onclick="eachWordLength()">Each word's frequency</button>
+        <button id="longestWord" class="longestWord" onclick="longestWord()">Longest word</button><br>
+        <button id="mostCommonLetter" class="mostCommonLetter" onclick="mostCommonLetter()">Most common letter</button>
+        <button id="extractTextUrl" class="extractTextUrl" onclick="extractTextUrl()">Extract Text</button>
+    </div>
+
+</div>
+</body>
+</html>

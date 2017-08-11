@@ -1,0 +1,16 @@
+/**** Body ****/
+body { font-size: 14px !important; color: black; font-weight: normal; text-align: center; }
+
+/**** Input ****/
+input { height: 20px; width: 100px; margin: 2px; }
+.inputData { margin: 5px; }
+
+/**** Form ****/
+.form { margin: 5px; }
+
+/**** Button ****/
+.buttonSpace { height: 60px; width: 400px; display: inline-flex; }
+.extractTextUrl { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; }
+.eachWordLength { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; }
+.longestWord { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; }
+.mostCommonLetter { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; }
