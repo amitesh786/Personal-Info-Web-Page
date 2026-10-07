@@ -1,0 +1,55 @@
+/* *** Body ***
+body { font-size: 14px !important; color: black; font-weight: normal; text-align: center; }
+
+/**** Input ****/
+input { height: 20px; width: 100px; margin: 2px; }
+.inputData { margin: 5px; }
+
+/**** Form ****/
+.form { margin: 5px; }
+
+/**** Button ****/
+.buttonSpace { height: 60px; width: 400px; display: inline-flex; }
+.extractTextUrl { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; }
+.eachWordLength { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; }
+.longestWord { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; }
+.mostCommonLetter { height: 35px; width: 100px; text-align: center; background: rgb(158,255,152); margin: 2px; } */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.form {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+input[type="text"] {
+    height: 35px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.3);
+    outline: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Amitesh WebPage</title>
+    <link rel="stylesheet" href="./personal.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type='text/javascript' src='./personal.js' charset='UTF-8'></script>
+</head>
+
+<body>
+    <div class="form">
+        <h1>Personal Info</h1>
+
+        <div id="inputData" class="mb-3">
+            <label><strong>Last Name:</strong></label>
+            <input id="lastName" type="text" maxlength="10" name="lastName" class="form-control form-control-lg d-inline-block w-auto">
+
+            <label><strong>First Name:</strong></label>
+            <input id="firstName" type="text" maxlength="10" name="firstName" class="form-control form-control-lg d-inline-block w-auto">
+
+            <label><strong>Address:</strong></label>
+            <input id="address" type="text" name="address" maxlength="25" class="form-control form-control-lg d-inline-block w-auto">
+        </div>
+
+        <div id="buttonSpace" class="mb-3">
+            <button class="btn btn-primary" onclick="eachWordLength()">Each word's frequency</button>
+            <button class="btn btn-secondary" onclick="longestWord()">Longest word</button>
+            <button class="btn btn-success" onclick="mostCommonLetter()">Most common letter</button>
+            <button class="btn btn-info text-white" onclick="extractTextUrl()">Extract Text</button>
+        </div>
+
+        <div>
+            <h4>Result</h4>
+            <div id="resultBox" class="p-3 border rounded bg-light" style="min-height: 100px;">
+                <em>No result yet</em>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
